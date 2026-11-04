@@ -1,0 +1,12 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Latest · Court Transcript Desk</title><link rel="stylesheet" href="assets/style.css"></head><body>
+<div class="top"><div class="wrap"><span>Automated public-court transcript desk</span><span><a href="index.html">Library</a></span></div></div>
+<header class="hero"><div class="wrap"><p class="kicker">Daily update</p><h1>Latest transcripts</h1><p>New public hearings and judge-channel uploads from the automated pipeline.</p></div></header>
+<main><div class="wrap"><section class="panel"><h2>Newest 20</h2><div id="list" class="grid"><div class="empty">Loading…</div></div></section></div></main>
+<footer><div class="wrap">Only cleared public sources are shown. See the library for filters.</div></footer>
+<script>
+const $=s=>document.querySelector(s), esc=v=>String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+fetch("data/digest.json",{cache:"no-store"}).then(r=>r.json()).then(rows=>{
+ $("#list").innerHTML=rows.map(v=>`<article class="card"><h3><a href="video.html?id=${encodeURIComponent(v.id)}">${esc(v.title)}</a></h3><div class="meta">${esc(v.channel_name)} · ${esc(v.judge||"")}</div><div class="meta">${esc((v.topic_labels||[]).slice(0,2).join(" · "))}</div><div class="foot"><span class="badge">${v.transcript_status==="ok"?"Transcript":"No transcript"}</span><span>${esc(v.published||"")}</span></div></article>`).join("")||'<div class="empty">No updates yet.</div>';
+}).catch(()=>{$("#list").innerHTML='<div class="empty">No digest data yet.</div>';});
+</script></body></html>

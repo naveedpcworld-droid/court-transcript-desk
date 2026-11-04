@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-11-04T10:46:18+00:00",
+  "videos": [
+    {
+      "id": "lK3MsPKJUl8",
+      "title": "TUE., NOV 3, 2026/JUDGE STEPHANIE BOYD/187TH DISTRICT COURT/MORN DOCKET",
+      "channel_id": "UCiBt-ijBAoKLiWNwOYogbAQ",
+      "channel_handle": "@judgestephanieboyd4233",
+      "channel_name": "Judge Stephanie Boyd",
+      "source_tier": "official_judge",
+      "rights_status": "public_court_feed",
+      "public": true,
+      "publish_transcript": true,
+      "published": "2026-11-04T00:00:00+00:00",
+      "duration": 10517,
+      "views": 8284,
+      "url": "https://www.youtube.com/watch?v=lK3MsPKJUl8",
+      "thumbnail": "https://i.ytimg.com/vi/lK3MsPKJUl8/hqdefault.jpg",
+      "description": "",
+      "transcript_status": "ok",
+      "transcript_source": "youtube_captions",
+      "transcript_path": "data/transcripts/lK3MsPKJUl8.json",
+      "transcript_segments": 3461,
+      "topics": [
+        "family_custody",
+        "cop_misconduct",
+        "assault",
+        "sentencing",
+        "traffic"
+      ],
+      "primary_topic": "family_custody",
+      "primary_topic_label": "Family / custody",
+      "topic_labels": [
+        "Family / custody",
+        "Cop misconduct / civil rights",
+        "Assault / violence",
+        "Sentencing",
+        "Traffic / license"
+      ],
+      "judge": "Judge Stephanie Boyd",
+      "court": "187th District Court, Bexar County, Texas",
+      "stage": "sentencing",
+      "outcome": "jail",
+      "case_name": "",
+      "why": "Family cases turn on identity, children and emotional testimony.",
+      "confidence": 0.95,
+      "classifier": "rules-v1",
+      "processed_at": "2026-11-04T10:44:04+00:00",
+      "duration_fmt": "2:55:17",
+      "published_date": "2026-11-04",
+      "transcript_url": "data/transcripts/lK3MsPKJUl8.json"
+    }
+  ]
+}

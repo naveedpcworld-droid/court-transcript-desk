@@ -1,0 +1,191 @@
+# Channel registry. Add or remove channels here.
+#
+# source_tier:
+#   official_court   = court-owned channel
+#   official_judge   = judge-owned docket channel
+#   licensed_media   = Court TV / Law & Crime / CVN style; needs a licence
+#   commentary       = competitor/commentary channel; internal watchlist only
+#
+# rights_status:
+#   public_court_feed | licensed | live_only | no_recording_order | commentary_internal_only | unknown
+#
+# public: true means it can appear on the student site.
+# publish_transcript: true means the transcript can be stored and shown.
+# Monitor-only channels still record metadata in the private repo, but are not published.
+
+settings:
+  timezone: UTC
+  max_new_per_channel: 5
+  max_total_new: 40
+  backfill_new_channels: 3
+  transcript_languages: ["en"]
+  # Public site is only for cleared sources. Do not set this to true casually.
+  public_site: true
+
+channels:
+  - name: Judge Stephanie Boyd
+    handle: "@judgestephanieboyd4233"
+    source_tier: official_judge
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: "Judge Stephanie Boyd"
+    court: "187th District Court, Bexar County, Texas"
+    notes: "Judge-run docket archive. Verify court recording/reuse policy before publishing clips."
+
+  - name: Judge Brian Oakley
+    handle: "@34thdistrictcourtjudgebria39"
+    source_tier: official_judge
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: "Judge Brian Oakley"
+    court: "34th District Court, Michigan"
+    notes: "Judge-run live-room archive."
+
+  - name: 252nd District Court
+    handle: "@252nddistrictcourt3"
+    source_tier: official_court
+    rights_status: live_only
+    public: true
+    publish_transcript: true
+    judge: "Judge Raquel West"
+    court: "252nd District Court, Jefferson County, Texas"
+    notes: "Official channel; small archive (about 10-11 videos)."
+
+  - name: Hernando County First Appearance Hearings
+    handle: "@HernandoCo.FirstAppearances"
+    source_tier: official_court
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: "Hernando County judges"
+    court: "Hernando County, Florida"
+    notes: "Daily first-appearance sessions; multiple defendants per video."
+
+  - name: Hon. Michael K. McNally
+    handle: "@hon.michaelk.mcnally3487"
+    source_tier: official_judge
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: "Judge Michael K. McNally"
+    court: "36th District Court, Detroit, Michigan"
+
+  - name: Hon J Cedric Simpson Live Feed
+    handle: "@honjcedricsimpsonlivefeed4076"
+    source_tier: official_judge
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: "Judge Cedric Simpson"
+    court: "14A District Court, Washtenaw County, Michigan"
+
+  - name: Judge Jeffrey Middleton
+    handle: "@judgejeffreymiddleton7573"
+    source_tier: official_judge
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: "Judge Jeffrey Middleton"
+    court: "3B District Court, Michigan"
+
+  - name: 36th District Court
+    handle: "@36thdistrictcourt66"
+    source_tier: official_court
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: "36th District Court judges"
+    court: "36th District Court, Detroit, Michigan"
+
+  - name: CTRM 234 36th District Court
+    handle: "@CTRMthDistrictCourt-hj2tc"
+    source_tier: official_court
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: "36th District Court judges"
+    court: "36th District Court, Detroit, Michigan"
+
+  - name: CTRM 434 36th District Court
+    handle: "@CTRMthDistrictCourt-nz7sy"
+    source_tier: official_court
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: "36th District Court judges"
+    court: "36th District Court, Detroit, Michigan"
+
+  # --- Licensed media: monitor, but do not publish transcripts until licensed. ---
+  - name: COURT TV
+    handle: "@CourtTV"
+    source_tier: licensed_media
+    rights_status: licensed
+    public: false
+    publish_transcript: false
+    judge: ""
+    court: "Various US courts"
+    notes: "Media partner/licence required before student redistribution."
+
+  - name: Law&Crime Network
+    handle: "@LawAndCrime"
+    source_tier: licensed_media
+    rights_status: licensed
+    public: false
+    publish_transcript: false
+    judge: ""
+    court: "Various US courts"
+    notes: "Media partner/licence required before student redistribution."
+
+  - name: Courtroom View Network
+    handle: "@CourtroomViewNetwork"
+    source_tier: licensed_media
+    rights_status: licensed
+    public: false
+    publish_transcript: false
+    judge: ""
+    court: "Various US courts"
+    notes: "Original trial footage; licence required."
+
+  # --- Commentary / competitor watchlist: internal only. ---
+  - name: Judge Fleischer TV
+    handle: "@JudgeFleischerTV"
+    source_tier: commentary
+    rights_status: commentary_internal_only
+    public: false
+    publish_transcript: false
+    judge: "Judge David Fleischer"
+    court: "Harris County Court at Law No. 5, Texas"
+    notes: "Commentary/clip channel. Internal competitor tracking only."
+
+  - name: Fleischer Files
+    handle: "@FleischerFiles"
+    source_tier: commentary
+    rights_status: commentary_internal_only
+    public: false
+    publish_transcript: false
+    judge: "Judge David Fleischer / Judge Boyd / Judge West"
+    court: "Texas"
+    notes: "Clip/commentary channel. Internal only."
+
+  - name: Judge Fleischer Fans
+    handle: "@JudgeFleischer"
+    source_tier: commentary
+    rights_status: commentary_internal_only
+    public: false
+    publish_transcript: false
+    judge: "Judge David Fleischer / Judge West"
+    court: "Texas"
+    notes: "Fan/clip channel. Internal only."
+
+  # No-recording court: listed for monitoring only, never transcribe/publish.
+  - name: Jeff. Co. Criminal District Court (no record)
+    handle: "@jeffersoncountycriminaldis5808"
+    source_tier: official_court
+    rights_status: no_recording_order
+    public: false
+    publish_transcript: false
+    judge: "Judge John B. Stevens Jr."
+    court: "Jefferson County Criminal District Court, Texas"
+    notes: "Channel says DO NOT RECORD. Do not transcribe or redistribute."
