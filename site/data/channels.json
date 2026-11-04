@@ -1,45 +1,51 @@
 [
   {
     "name": "Hernando County First Appearance Hearings",
-    "videos": 10,
+    "videos": 15,
     "handle": "@HernandoCo.FirstAppearances",
-    "court": "Hernando County First Appearance Hearings"
+    "court": "Hernando County, Florida"
   },
   {
     "name": "Judge Jeffrey Middleton",
-    "videos": 10,
+    "videos": 14,
     "handle": "@judgejeffreymiddleton7573",
-    "court": "Judge Jeffrey Middleton"
-  },
-  {
-    "name": "Judge Stephanie Boyd",
-    "videos": 9,
-    "handle": "@judgestephanieboyd4233",
-    "court": "187th District Court, Bexar County, Texas"
+    "court": "3B District Court, Michigan"
   },
   {
     "name": "Judge Brian Oakley",
-    "videos": 9,
+    "videos": 14,
     "handle": "@34thdistrictcourtjudgebria39",
     "court": "34th District Court, Michigan"
   },
   {
     "name": "36th District Court",
-    "videos": 9,
+    "videos": 14,
     "handle": "@36thdistrictcourt66",
     "court": "36th District Court, Detroit, Michigan"
   },
   {
+    "name": "Judge Stephanie Boyd",
+    "videos": 13,
+    "handle": "@judgestephanieboyd4233",
+    "court": "187th District Court, Bexar County, Texas"
+  },
+  {
     "name": "252nd District Court",
-    "videos": 8,
+    "videos": 11,
     "handle": "@252nddistrictcourt3",
     "court": "252nd District Court, Jefferson County, Texas"
   },
   {
+    "name": "CTRM 234 36th District Court",
+    "videos": 10,
+    "handle": "@CTRMthDistrictCourt-hj2tc",
+    "court": "36th District Court, Detroit, Michigan"
+  },
+  {
     "name": "Hon J Cedric Simpson Live Feed",
-    "videos": 7,
+    "videos": 8,
     "handle": "@honjcedricsimpsonlivefeed4076",
-    "court": "Hon J Cedric Simpson Live Feed"
+    "court": "14A District Court, Washtenaw County, Michigan"
   },
   {
     "name": "Hon. Michael K. McNally",
@@ -48,9 +54,9 @@
     "court": "Hon. Michael K. McNally"
   },
   {
-    "name": "CTRM 234 36th District Court",
-    "videos": 5,
-    "handle": "@CTRMthDistrictCourt-hj2tc",
+    "name": "CTRM 434 36th District Court",
+    "videos": 4,
+    "handle": "@CTRMthDistrictCourt-nz7sy",
     "court": "36th District Court, Detroit, Michigan"
   }
 ]
