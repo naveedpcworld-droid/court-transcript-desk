@@ -18,3 +18,14 @@ jobs:
       - name: web_embedded client
         continue-on-error: true
         run: yt-dlp --dump-json --no-warnings --no-playlist --extractor-args "youtube:player_client=web_embedded" "https://www.youtube.com/watch?v=lK3MsPKJUl8" | python -c 'import sys,json; print("EMBED", json.load(sys.stdin).get("title"))'
+
+  macos:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q yt-dlp
+      - name: macOS default client
+        continue-on-error: true
+        run: yt-dlp --dump-json --no-warnings --no-playlist "https://www.youtube.com/watch?v=lK3MsPKJUl8" | python -c 'import sys,json; print("MACOS", json.load(sys.stdin).get("title"))'
