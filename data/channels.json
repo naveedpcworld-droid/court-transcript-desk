@@ -83,5 +83,210 @@
     "id": "UC8B8Ryhay0uCWv8z6yCJ8iw",
     "name": "Jeff. Co. Criminal District Court (no record)",
     "resolved_at": "2026-11-04T11:38:24+00:00"
+  },
+  "@CTRMthDistrictCourt-he1mc": {
+    "id": "UCVXGFouju6BvhoK3vEwPC6w",
+    "name": "CTRMthDistrictCourt-he1mc",
+    "resolved_at": "2026-11-04T11:47:14+00:00"
+  },
+  "@CTRMthDistrictCourt-bp4sc": {
+    "id": "UCVY9DWG5Bwv8NEIuwfikBvw",
+    "name": "CTRM 533 36th District Court",
+    "resolved_at": "2026-11-04T11:47:15+00:00"
+  },
+  "@CTRMthDistrictCourt-wr7jz": {
+    "id": "UC3-nRITLqFRLI_nn5NtODkg",
+    "name": "CTRM 437 36th District Court",
+    "resolved_at": "2026-11-04T11:47:16+00:00"
+  },
+  "@36thdistrictcourt45": {
+    "id": "UCuNdA0FYBDRBg70b4qF13vg",
+    "name": "36th District Court",
+    "resolved_at": "2026-11-04T11:47:16+00:00"
+  },
+  "@36thdistrictcourt-courtroo41": {
+    "id": "UCXnegeIbSFZpXzXXKaxlSHQ",
+    "name": "36th District Court - Courtroom 338",
+    "resolved_at": "2026-11-04T11:47:17+00:00"
+  },
+  "@CTRMthDistrictCourt-cg9kd": {
+    "id": "UCG6ESWdo2PfPbPOx5vIH8Sg",
+    "name": "CTRM 133 36th District Court",
+    "resolved_at": "2026-11-04T11:47:17+00:00"
+  },
+  "@CTRMthDistrictCourt-uc9um": {
+    "id": "UC-bBLgDHoutWRVCzHsnGFvA",
+    "name": "CTRM 436 36th District Court",
+    "resolved_at": "2026-11-04T11:47:18+00:00"
+  },
+  "@zoom36thdistrictcourt47": {
+    "id": "UCyTWmeiHuf56DamNLdl8ueA",
+    "name": "Zoom 36th District Court",
+    "resolved_at": "2026-11-04T11:47:18+00:00"
+  },
+  "@CTRMthDistrictCourt-bh1te": {
+    "id": "UCnqJEUcSKWBkC3qHsirWHBQ",
+    "name": "CTRM 539 36th District Court",
+    "resolved_at": "2026-11-04T11:47:19+00:00"
+  },
+  "@CTRMthDistrictCourt-ec2tc": {
+    "id": "UCNnXm8z-OxloRdyPVc3tG3g",
+    "name": "CTRM 438 36th District Court",
+    "resolved_at": "2026-11-04T11:47:19+00:00"
+  },
+  "@CTRMthDistrictCourt-jv8gc": {
+    "id": "UCyBAAQWaGzRPMfF9In3ifFQ",
+    "name": "CTRM 336 36th District Court",
+    "resolved_at": "2026-11-04T11:47:20+00:00"
+  },
+  "@CTRMthDistrictCourt-lb5ui": {
+    "id": "UCfrBMMfNjHfZFWH4o2fojJw",
+    "name": "CTRM 433 36th District Court",
+    "resolved_at": "2026-11-04T11:47:20+00:00"
+  },
+  "@CTRMthDistrictCourt-mf3hg": {
+    "id": "UCxnIY1HYa6bJPX3lBeyr8KQ",
+    "name": "CTRM 534 36th District Court",
+    "resolved_at": "2026-11-04T11:47:20+00:00"
+  },
+  "@CTRMthDistrictCourt-dd9wu": {
+    "id": "UCbvz85Qa70kF58cg6uGDS6A",
+    "name": "CTRM 331 36th District Court",
+    "resolved_at": "2026-11-04T11:47:21+00:00"
+  },
+  "@CTRMthDistrictCourt-df9uu": {
+    "id": "UCkkz4FmsVXjx0D8m--RMu6w",
+    "name": "CTRM 335 36th District Court",
+    "resolved_at": "2026-11-04T11:47:22+00:00"
+  },
+  "@CTRMthDistrictCourt-zw1mz": {
+    "id": "UC0_CU8BBLP6ZBcmwRkdyIFA",
+    "name": "CTRM 332 36th District Court",
+    "resolved_at": "2026-11-04T11:47:22+00:00"
+  },
+  "@CTRMthDistrictCourt-ml6np": {
+    "id": "UC3ALiMpVMYt5Wf1Xw-o1y1A",
+    "name": "CTRM 334 36th District Court",
+    "resolved_at": "2026-11-04T11:47:23+00:00"
+  },
+  "@CTRMthDistrictCourt-pc2on": {
+    "id": "UCsoD_tWY1uL0XHu_unaoh2Q",
+    "name": "CTRM 435 36th District Court",
+    "resolved_at": "2026-11-04T11:47:24+00:00"
+  },
+  "@44thdistrictcourt-hon.dere46": {
+    "id": "UCJHWb5444fhV6einFYO7WxA",
+    "name": "44th District Court - Hon. Derek W. Meinecke",
+    "resolved_at": "2026-11-04T11:47:24+00:00"
+  },
+  "@firstdistrictcourtofappeal493": {
+    "id": "UCSiwVdJGZt9dvbnH-OEqAvw",
+    "name": "First District Court of Appeal - State of Florida",
+    "resolved_at": "2026-11-04T11:47:25+00:00"
+  },
+  "@1stdistrictcourtofappealsh542": {
+    "id": "UCzkPGbm2ibQ-_NoA_LHFucA",
+    "name": "1st District Court of Appeals Ham Co Ohio",
+    "resolved_at": "2026-11-04T11:47:25+00:00"
+  },
+  "@texasfirstcourtofappeals2725": {
+    "id": "UCDAyebRKtqp8Wdobo8HZXNw",
+    "name": "Texas First Court of Appeals",
+    "resolved_at": "2026-11-04T11:47:26+00:00"
+  },
+  "@fourteenthjudicialcircuito1005": {
+    "id": "UCZKMHi6_-072bacbDowUqpA",
+    "name": "Fourteenth Circuit",
+    "resolved_at": "2026-11-04T11:47:26+00:00"
+  },
+  "@seconddistrictcourtofappea8708": {
+    "id": "UCVsC4RoyUmxB55LeaAXP3Dw",
+    "name": "Second District Court of Appeal",
+    "resolved_at": "2026-11-04T11:47:27+00:00"
+  },
+  "@IllinoisAppellateCourtThird": {
+    "id": "UC5LQM_OD2mkSUw5yFCuYKTg",
+    "name": "Illinois Appellate Court Third District",
+    "resolved_at": "2026-11-04T11:47:28+00:00"
+  },
+  "@floridasixthdistrictcourto8200": {
+    "id": "UC0eB6kYAtAgWkMrSI_aLLTQ",
+    "name": "Florida Sixth District Court of Appeal",
+    "resolved_at": "2026-11-04T11:47:28+00:00"
+  },
+  "@CTRMthDistrictCourt-jj7os": {
+    "id": "UCAb1No3FeZupEKhEyeKh-Wg",
+    "name": "CTRM 233 36th District Court",
+    "resolved_at": "2026-11-04T11:47:29+00:00"
+  },
+  "@judgejester2": {
+    "id": "UCVEaYPjRvai2mCvKjg8leuA",
+    "name": "Judge Jester",
+    "resolved_at": "2026-11-04T11:47:29+00:00"
+  },
+  "@CourtCamLive": {
+    "id": "UCkf4CGP5hqhWJPOlsOALsFw",
+    "name": "CourtCam Live",
+    "resolved_at": "2026-11-04T11:47:30+00:00"
+  },
+  "@JudgmentDay-b2v": {
+    "id": "UCjA8qW_vQYe8d_VSk4Y5TFA",
+    "name": "Judgment Day",
+    "resolved_at": "2026-11-04T11:47:31+00:00"
+  },
+  "@VerdictLedger12": {
+    "id": "UCFv4l1mIKWDNOuPd3ufpgjw",
+    "name": "Verdict Ledger",
+    "resolved_at": "2026-11-04T11:47:31+00:00"
+  },
+  "@VerdictWire": {
+    "id": "UCQTLE8noLgWi53CXZgWMNrw",
+    "name": "Verdict Wire",
+    "resolved_at": "2026-11-04T11:47:32+00:00"
+  },
+  "@AudittheCourt": {
+    "id": "UCmc4biDadYIwhBctWd1ESuA",
+    "name": "Audit the Court",
+    "resolved_at": "2026-11-04T11:47:32+00:00"
+  },
+  "@jurisdictum": {
+    "id": "UClgn2vIguYK31voYxmGpqmw",
+    "name": "Juris Dictum",
+    "resolved_at": "2026-11-04T11:47:33+00:00"
+  },
+  "@JusticeNetworkNews": {
+    "id": "UC0V1KSHCu7RYtkFvRYnur9A",
+    "name": "Justice Network News",
+    "resolved_at": "2026-11-04T11:47:34+00:00"
+  },
+  "@AmericanCourtTV": {
+    "id": "UCCt0j40IopgCcWPrT0S-RZw",
+    "name": "American Court TV",
+    "resolved_at": "2026-11-04T11:47:34+00:00"
+  },
+  "@JudgeBoydCourt-m1s": {
+    "id": "UCdlhiAmYdwQcv8AdQlrucYg",
+    "name": "Cops Got Exposed",
+    "resolved_at": "2026-11-04T11:47:35+00:00"
+  },
+  "@DocketWatchLive": {
+    "id": "UCCYAHQCin_dnKGJuXVixx_A",
+    "name": "Docket Watch Live",
+    "resolved_at": "2026-11-04T11:47:35+00:00"
+  },
+  "@Judgeinsights-j": {
+    "id": "UCbfV0qC739s7rYVi2pVG71g",
+    "name": "Judge Insights",
+    "resolved_at": "2026-11-04T11:47:36+00:00"
+  },
+  "@Courtjudges": {
+    "id": "UCq2c8cwz9nV1klaBYwsofAQ",
+    "name": " Court Judge",
+    "resolved_at": "2026-11-04T11:47:36+00:00"
+  },
+  "@officialtrialtales": {
+    "id": "UCupr8osK5xx6WbpFaQMEf3Q",
+    "name": "Trial Tales",
+    "resolved_at": "2026-11-04T11:47:37+00:00"
   }
 }
