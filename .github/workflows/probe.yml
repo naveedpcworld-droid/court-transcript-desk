@@ -1,0 +1,20 @@
+name: Probe YouTube access
+on:
+  workflow_dispatch:
+jobs:
+  ubuntu:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q yt-dlp
+      - name: default client
+        continue-on-error: true
+        run: yt-dlp --dump-json --no-warnings --no-playlist "https://www.youtube.com/watch?v=lK3MsPKJUl8" | python -c 'import sys,json; print("DEFAULT", json.load(sys.stdin).get("title"))'
+      - name: android client
+        continue-on-error: true
+        run: yt-dlp --dump-json --no-warnings --no-playlist --extractor-args "youtube:player_client=android" "https://www.youtube.com/watch?v=lK3MsPKJUl8" | python -c 'import sys,json; print("ANDROID", json.load(sys.stdin).get("title"))'
+      - name: web_embedded client
+        continue-on-error: true
+        run: yt-dlp --dump-json --no-warnings --no-playlist --extractor-args "youtube:player_client=web_embedded" "https://www.youtube.com/watch?v=lK3MsPKJUl8" | python -c 'import sys,json; print("EMBED", json.load(sys.stdin).get("title"))'
