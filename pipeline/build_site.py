@@ -29,7 +29,8 @@ def main(argv: list[str] | None = None) -> int:
     settings, channels = load_config(os.path.join(root, "channels.yml"))
     store = Store(root)
     index = store.load_index()
-    public = [v for v in index.get("videos", []) if v.get("public") and v.get("publish_transcript", True)]
+    public = [v for v in index.get("videos", [])
+              if v.get("public") and v.get("publish_transcript", True) and v.get("transcript_status") == "ok"]
     public.sort(key=lambda v: v.get("published") or "", reverse=True)
 
     site_data = os.path.join(root, "site", "data")

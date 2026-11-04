@@ -3,13 +3,19 @@ from __future__ import annotations
 
 import glob
 import html
+import json
 import os
 import re
 import shutil
 import tempfile
+import time
+import urllib.error
+import urllib.parse
+import urllib.request
 from typing import Any
 
 from .utils import normalize_space, run_cmd
+from .innertube import fetch_innertube_transcript
 
 VTT_TIME = re.compile(r"(\d{1,2}):(\d{2})(?::(\d{2}))?[.,](\d{3})")
 
@@ -79,6 +85,46 @@ def dedupe_rolling(segments: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return out
 
 
+def _from_supadata(url: str, languages: list[str], timeout: int = 60) -> list[dict[str, Any]]:
+    key = os.environ.get("SUPADATA_API_KEY", "").strip()
+    if not key:
+        raise RuntimeError("SUPADATA_API_KEY not set")
+    qs = urllib.parse.urlencode({"url": url, "lang": languages[0] if languages else "en", "text": "false", "mode": "auto"})
+    endpoint = f"https://api.supadata.ai/v1/transcript?{qs}"
+    headers = {"x-api-key": key, "Content-Type": "application/json"}
+
+    def get_json(u: str) -> dict[str, Any]:
+        req = urllib.request.Request(u, headers=headers)
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            return json.loads(r.read().decode("utf-8", errors="replace"))
+
+    data = get_json(endpoint)
+    if "jobId" in data:
+        job = data["jobId"]
+        for _ in range(30):
+            time.sleep(2)
+            data = get_json(f"https://api.supadata.ai/v1/transcript/{job}")
+            if data.get("status") == "completed":
+                break
+            if data.get("status") in {"failed", "error"}:
+                raise RuntimeError(f"Supadata job failed: {data}")
+        else:
+            raise RuntimeError("Supadata job timed out")
+        data = data.get("result", data)
+    content = data.get("content")
+    if isinstance(content, str):
+        return [{"start": 0.0, "end": 0.0, "text": normalize_space(content)}]
+    segments = []
+    for chunk in content or []:
+        text = normalize_space(chunk.get("text", ""))
+        if not text:
+            continue
+        start = round(float(chunk.get("offset", 0)) / 1000, 2)
+        dur = round(float(chunk.get("duration", 0)) / 1000, 2)
+        segments.append({"start": start, "end": round(start + max(dur, 0.4), 2), "text": text})
+    return segments
+
+
 def _from_ytdlp(url: str, video_id: str, languages: list[str], timeout: int = 120) -> list[dict[str, Any]]:
     tmp = tempfile.mkdtemp(prefix="cts-")
     try:
@@ -126,6 +172,27 @@ def _from_api(video_id: str, languages: list[str]) -> list[dict[str, Any]]:
 def fetch_transcript(url: str, video_id: str, languages: list[str] | None = None) -> dict[str, Any]:
     languages = languages or ["en"]
     errors = []
+    try:
+        segments = fetch_innertube_transcript(video_id)
+        if segments:
+            return {
+                "status": "ok", "source": "innertube", "language": "en",
+                "segments": segments, "text": " ".join(s["text"] for s in segments),
+                "segment_count": len(segments), "error": "",
+            }
+    except Exception as exc:
+        errors.append(f"innertube: {exc}")
+    if os.environ.get("SUPADATA_API_KEY", "").strip():
+        try:
+            segments = _from_supadata(url, languages)
+            if segments:
+                return {
+                    "status": "ok", "source": "supadata", "language": "en",
+                    "segments": segments, "text": " ".join(s["text"] for s in segments),
+                    "segment_count": len(segments), "error": "",
+                }
+        except Exception as exc:
+            errors.append(f"supadata: {exc}")
     try:
         segments = _from_ytdlp(url, video_id, languages)
         return {

@@ -1,5 +1,8 @@
 # Court Transcript Desk
 
+**Live student site:** https://naveedpcworld-droid.github.io/court-transcript-desk/  
+**Repo:** https://github.com/naveedpcworld-droid/court-transcript-desk
+
 ![Dashboard preview](site/assets/preview.png)
 
 A GitHub-hosted, serverless pipeline that watches public court/judge YouTube channels, detects new uploads, fetches captions, classifies each hearing, and publishes a static student dashboard with daily updates.
@@ -29,6 +32,18 @@ static site in /site → GitHub Pages
 - No video/audio stored.
 - Static site is fast, searchable, and works on GitHub Pages.
 - Private/competitor channels can be monitored while being excluded from the public site.
+
+## Important: GitHub-hosted runners and YouTube
+
+The first live run confirmed that GitHub’s datacenter IP is blocked by YouTube for `yt-dlp` (“Sign in to confirm you’re not a bot”). RSS/metadata still worked.
+
+The pipeline now uses YouTube’s public **InnerTube transcript panel endpoint** first. That endpoint works from GitHub-hosted runners and returns timestamped caption segments without cookies. If it stops working, these fallbacks are available:
+
+1. **Supadata key** — add repo secret `SUPADATA_API_KEY` (paid, reliable).
+2. **Self-hosted runner** — install a runner on a residential-IP Mac and set repo variable `RUNNER_LABEL=self-hosted`.
+3. **Private proxy/cookies** — possible, but fragile and has terms-of-service risk.
+
+The initial failed run left some records marked `no_captions`; the workflow now runs `pipeline.refresh --limit 50` to retry them.
 
 ## Quick start (local)
 
@@ -168,7 +183,15 @@ The static site can stay.
 - Public repo: standard GitHub-hosted Actions minutes are free.
 - Private repo: free minutes apply, then per-minute billing.
 - Captions are fast. ASR is the expensive part.
-- `yt-dlp` and RSS make no paid API calls.
+- RSS and GitHub Actions are free; Supadata/ASR are paid beyond free tiers.
+- Captions via yt-dlp are free but only from a non-blocked IP.
+
+## Current deployment status
+
+- Public repo + GitHub Pages: **live**.
+- Scheduled workflow: **active** (every 6 hours + manual).
+- GitHub-hosted caption fetch: **working through InnerTube**; `yt-dlp` remains blocked.
+- Supadata/self-hosted are fallbacks, not required for normal operation.
 
 ## Security
 

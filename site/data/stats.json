@@ -1,14 +1,14 @@
 {
-  "videos": 41,
+  "videos": 1,
   "transcripts": 1,
-  "channels": 8,
+  "channels": 1,
   "topics": {
-    "Sentencing": 2,
     "Family / custody": 1,
     "Cop misconduct / civil rights": 1,
     "Assault / violence": 1,
+    "Sentencing": 1,
     "Traffic / license": 1
   },
-  "latest_date": "2026-11-04T11:32:51+00:00",
-  "generated_at": "2026-11-04T11:38:24+00:00"
+  "latest_date": "2026-11-04T00:00:00+00:00",
+  "generated_at": "2026-11-04T11:41:50+00:00"
 }
