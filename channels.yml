@@ -189,3 +189,436 @@ channels:
     judge: "Judge John B. Stevens Jr."
     court: "Jefferson County Criminal District Court, Texas"
     notes: "Channel says DO NOT RECORD. Do not transcribe or redistribute."
+
+  - name: "CTRMthDistrictCourt-he1mc"
+    handle: "@CTRMthDistrictCourt-he1mc"
+    source_tier: official_court
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: ""
+    court: "36th District Court, Detroit, Michigan"
+    notes: "Added from the official-library inventory; verify local recording rules."
+  - name: "36th District Court"
+    handle: "@36thdistrictcourt66"
+    source_tier: official_court
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: ""
+    court: "36th District Court, Detroit, Michigan"
+    notes: "Added from the official-library inventory; verify local recording rules."
+  - name: "CTRM 434 36th District Court"
+    handle: "@CTRMthDistrictCourt-nz7sy"
+    source_tier: official_court
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: ""
+    court: "36th District Court, Detroit, Michigan"
+    notes: "Added from the official-library inventory; verify local recording rules."
+  - name: "CTRM 533 36th District Court"
+    handle: "@CTRMthDistrictCourt-bp4sc"
+    source_tier: official_court
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: ""
+    court: "36th District Court, Detroit, Michigan"
+    notes: "Added from the official-library inventory; verify local recording rules."
+  - name: "CTRM 437 36th District Court"
+    handle: "@CTRMthDistrictCourt-wr7jz"
+    source_tier: official_court
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: ""
+    court: "36th District Court, Detroit, Michigan"
+    notes: "Added from the official-library inventory; verify local recording rules."
+  - name: "36th District Court"
+    handle: "@36thdistrictcourt45"
+    source_tier: official_court
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: ""
+    court: "36th District Court, Detroit, Michigan"
+    notes: "Added from the official-library inventory; verify local recording rules."
+  - name: "36th District Court - Courtroom 338"
+    handle: "@36thdistrictcourt-courtroo41"
+    source_tier: official_court
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: ""
+    court: "36th District Court, Detroit, Michigan"
+    notes: "Added from the official-library inventory; verify local recording rules."
+  - name: "CTRM 234 36th District Court"
+    handle: "@CTRMthDistrictCourt-hj2tc"
+    source_tier: official_court
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: ""
+    court: "36th District Court, Detroit, Michigan"
+    notes: "Added from the official-library inventory; verify local recording rules."
+  - name: "CTRM 133 36th District Court"
+    handle: "@CTRMthDistrictCourt-cg9kd"
+    source_tier: official_court
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: ""
+    court: "36th District Court, Detroit, Michigan"
+    notes: "Added from the official-library inventory; verify local recording rules."
+  - name: "CTRM 436 36th District Court"
+    handle: "@CTRMthDistrictCourt-uc9um"
+    source_tier: official_court
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: ""
+    court: "36th District Court, Detroit, Michigan"
+    notes: "Added from the official-library inventory; verify local recording rules."
+  - name: "Zoom 36th District Court"
+    handle: "@zoom36thdistrictcourt47"
+    source_tier: official_court
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: ""
+    court: "36th District Court, Detroit, Michigan"
+    notes: "Added from the official-library inventory; verify local recording rules."
+  - name: "CTRM 539 36th District Court"
+    handle: "@CTRMthDistrictCourt-bh1te"
+    source_tier: official_court
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: ""
+    court: "36th District Court, Detroit, Michigan"
+    notes: "Added from the official-library inventory; verify local recording rules."
+  - name: "CTRM 438 36th District Court"
+    handle: "@CTRMthDistrictCourt-ec2tc"
+    source_tier: official_court
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: ""
+    court: "36th District Court, Detroit, Michigan"
+    notes: "Added from the official-library inventory; verify local recording rules."
+  - name: "CTRM 336 36th District Court"
+    handle: "@CTRMthDistrictCourt-jv8gc"
+    source_tier: official_court
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: ""
+    court: "36th District Court, Detroit, Michigan"
+    notes: "Added from the official-library inventory; verify local recording rules."
+  - name: "CTRM 433 36th District Court"
+    handle: "@CTRMthDistrictCourt-lb5ui"
+    source_tier: official_court
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: ""
+    court: "36th District Court, Detroit, Michigan"
+    notes: "Added from the official-library inventory; verify local recording rules."
+  - name: "CTRM 534 36th District Court"
+    handle: "@CTRMthDistrictCourt-mf3hg"
+    source_tier: official_court
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: ""
+    court: "36th District Court, Detroit, Michigan"
+    notes: "Added from the official-library inventory; verify local recording rules."
+  - name: "CTRM 331 36th District Court"
+    handle: "@CTRMthDistrictCourt-dd9wu"
+    source_tier: official_court
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: ""
+    court: "36th District Court, Detroit, Michigan"
+    notes: "Added from the official-library inventory; verify local recording rules."
+  - name: "CTRM 335 36th District Court"
+    handle: "@CTRMthDistrictCourt-df9uu"
+    source_tier: official_court
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: ""
+    court: "36th District Court, Detroit, Michigan"
+    notes: "Added from the official-library inventory; verify local recording rules."
+  - name: "CTRM 332 36th District Court"
+    handle: "@CTRMthDistrictCourt-zw1mz"
+    source_tier: official_court
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: ""
+    court: "36th District Court, Detroit, Michigan"
+    notes: "Added from the official-library inventory; verify local recording rules."
+  - name: "CTRM 334 36th District Court"
+    handle: "@CTRMthDistrictCourt-ml6np"
+    source_tier: official_court
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: ""
+    court: "36th District Court, Detroit, Michigan"
+    notes: "Added from the official-library inventory; verify local recording rules."
+  - name: "Hon. Michael K. McNally"
+    handle: "@hon.michaelk.mcnally3487"
+    source_tier: official_court
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: ""
+    court: "Hon. Michael K. McNally"
+    notes: "Added from the official-library inventory; verify local recording rules."
+  - name: "CTRM 435 36th District Court"
+    handle: "@CTRMthDistrictCourt-pc2on"
+    source_tier: official_court
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: ""
+    court: "36th District Court, Detroit, Michigan"
+    notes: "Added from the official-library inventory; verify local recording rules."
+  - name: "Hon J Cedric Simpson Live Feed"
+    handle: "@honjcedricsimpsonlivefeed4076"
+    source_tier: official_court
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: ""
+    court: "Hon J Cedric Simpson Live Feed"
+    notes: "Added from the official-library inventory; verify local recording rules."
+  - name: "44th District Court - Hon. Derek W. Meinecke"
+    handle: "@44thdistrictcourt-hon.dere46"
+    source_tier: official_court
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: ""
+    court: "44th District Court - Hon. Derek W. Meinecke"
+    notes: "Added from the official-library inventory; verify local recording rules."
+  - name: "First District Court of Appeal - State of Florida"
+    handle: "@firstdistrictcourtofappeal493"
+    source_tier: official_court
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: ""
+    court: "First District Court of Appeal - State of Florida"
+    notes: "Added from the official-library inventory; verify local recording rules."
+  - name: "1st District Court of Appeals Ham Co Ohio"
+    handle: "@1stdistrictcourtofappealsh542"
+    source_tier: official_court
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: ""
+    court: "1st District Court of Appeals Ham Co Ohio"
+    notes: "Added from the official-library inventory; verify local recording rules."
+  - name: "Texas First Court of Appeals"
+    handle: "@texasfirstcourtofappeals2725"
+    source_tier: official_court
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: ""
+    court: "Texas First Court of Appeals"
+    notes: "Added from the official-library inventory; verify local recording rules."
+  - name: "Fourteenth Circuit"
+    handle: "@fourteenthjudicialcircuito1005"
+    source_tier: official_court
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: ""
+    court: "Fourteenth Circuit"
+    notes: "Added from the official-library inventory; verify local recording rules."
+  - name: "Judge Jeffrey Middleton"
+    handle: "@judgejeffreymiddleton7573"
+    source_tier: official_court
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: ""
+    court: "Judge Jeffrey Middleton"
+    notes: "Added from the official-library inventory; verify local recording rules."
+  - name: "Second District Court of Appeal"
+    handle: "@seconddistrictcourtofappea8708"
+    source_tier: official_court
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: ""
+    court: "Second District Court of Appeal"
+    notes: "Added from the official-library inventory; verify local recording rules."
+  - name: "Illinois Appellate Court Third District"
+    handle: "@IllinoisAppellateCourtThird"
+    source_tier: official_court
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: ""
+    court: "Illinois Appellate Court Third District"
+    notes: "Added from the official-library inventory; verify local recording rules."
+  - name: "Florida Sixth District Court of Appeal"
+    handle: "@floridasixthdistrictcourto8200"
+    source_tier: official_court
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: ""
+    court: "Florida Sixth District Court of Appeal"
+    notes: "Added from the official-library inventory; verify local recording rules."
+  - name: "CTRM 233 36th District Court"
+    handle: "@CTRMthDistrictCourt-jj7os"
+    source_tier: official_court
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: ""
+    court: "36th District Court, Detroit, Michigan"
+    notes: "Added from the official-library inventory; verify local recording rules."
+  - name: "Hernando County First Appearance Hearings"
+    handle: "@HernandoCo.FirstAppearances"
+    source_tier: official_court
+    rights_status: public_court_feed
+    public: true
+    publish_transcript: true
+    judge: ""
+    court: "Hernando County First Appearance Hearings"
+    notes: "Added from the official-library inventory; verify local recording rules."
+  - name: "Judge Jester"
+    handle: "@judgejester2"
+    source_tier: commentary
+    rights_status: commentary_internal_only
+    public: false
+    publish_transcript: false
+    judge: ""
+    court: "Various"
+    notes: "Competitor/commentary watchlist; internal only."
+  - name: "CourtCam Live"
+    handle: "@CourtCamLive"
+    source_tier: commentary
+    rights_status: commentary_internal_only
+    public: false
+    publish_transcript: false
+    judge: ""
+    court: "Various"
+    notes: "Competitor/commentary watchlist; internal only."
+  - name: "Judgment Day"
+    handle: "@JudgmentDay-b2v"
+    source_tier: commentary
+    rights_status: commentary_internal_only
+    public: false
+    publish_transcript: false
+    judge: ""
+    court: "Various"
+    notes: "Competitor/commentary watchlist; internal only."
+  - name: "Verdict Ledger"
+    handle: "@VerdictLedger12"
+    source_tier: commentary
+    rights_status: commentary_internal_only
+    public: false
+    publish_transcript: false
+    judge: ""
+    court: "Various"
+    notes: "Competitor/commentary watchlist; internal only."
+  - name: "Verdict Wire"
+    handle: "@VerdictWire"
+    source_tier: commentary
+    rights_status: commentary_internal_only
+    public: false
+    publish_transcript: false
+    judge: ""
+    court: "Various"
+    notes: "Competitor/commentary watchlist; internal only."
+  - name: "Audit the Court"
+    handle: "@AudittheCourt"
+    source_tier: commentary
+    rights_status: commentary_internal_only
+    public: false
+    publish_transcript: false
+    judge: ""
+    court: "Various"
+    notes: "Competitor/commentary watchlist; internal only."
+  - name: "Juris Dictum"
+    handle: "@jurisdictum"
+    source_tier: commentary
+    rights_status: commentary_internal_only
+    public: false
+    publish_transcript: false
+    judge: ""
+    court: "Various"
+    notes: "Competitor/commentary watchlist; internal only."
+  - name: "Justice Network News"
+    handle: "@JusticeNetworkNews"
+    source_tier: commentary
+    rights_status: commentary_internal_only
+    public: false
+    publish_transcript: false
+    judge: ""
+    court: "Various"
+    notes: "Competitor/commentary watchlist; internal only."
+  - name: "American Court TV"
+    handle: "@AmericanCourtTV"
+    source_tier: commentary
+    rights_status: commentary_internal_only
+    public: false
+    publish_transcript: false
+    judge: ""
+    court: "Various"
+    notes: "Competitor/commentary watchlist; internal only."
+  - name: "Cops Got Exposed"
+    handle: "@JudgeBoydCourt-m1s"
+    source_tier: commentary
+    rights_status: commentary_internal_only
+    public: false
+    publish_transcript: false
+    judge: ""
+    court: "Various"
+    notes: "Competitor/commentary watchlist; internal only."
+  - name: "Docket Watch Live"
+    handle: "@DocketWatchLive"
+    source_tier: commentary
+    rights_status: commentary_internal_only
+    public: false
+    publish_transcript: false
+    judge: ""
+    court: "Various"
+    notes: "Competitor/commentary watchlist; internal only."
+  - name: "Judge Insights"
+    handle: "@Judgeinsights-j"
+    source_tier: commentary
+    rights_status: commentary_internal_only
+    public: false
+    publish_transcript: false
+    judge: ""
+    court: "Various"
+    notes: "Competitor/commentary watchlist; internal only."
+  - name: " Court Judge"
+    handle: "@Courtjudges"
+    source_tier: commentary
+    rights_status: commentary_internal_only
+    public: false
+    publish_transcript: false
+    judge: ""
+    court: "Various"
+    notes: "Competitor/commentary watchlist; internal only."
+  - name: "Trial Tales"
+    handle: "@officialtrialtales"
+    source_tier: commentary
+    rights_status: commentary_internal_only
+    public: false
+    publish_transcript: false
+    judge: ""
+    court: "Various"
+    notes: "Competitor/commentary watchlist; internal only."
