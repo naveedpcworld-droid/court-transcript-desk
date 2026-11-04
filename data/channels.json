@@ -8,5 +8,80 @@
     "id": "UCo5E9pEhK_9kWG7-5HHcyRg",
     "name": "COURT TV",
     "resolved_at": "2026-11-04T10:46:14+00:00"
+  },
+  "@34thdistrictcourtjudgebria39": {
+    "id": "UC3tolFZsb19g2N2ALzeW1mg",
+    "name": "Judge Brian Oakley",
+    "resolved_at": "2026-11-04T11:36:20+00:00"
+  },
+  "@252nddistrictcourt3": {
+    "id": "UCi6scjUsERAUv8P74BPM4_g",
+    "name": "252nd District Court",
+    "resolved_at": "2026-11-04T11:36:37+00:00"
+  },
+  "@HernandoCo.FirstAppearances": {
+    "id": "UCs_JxjUAkJqZ_4CaE5X5FCg",
+    "name": "Hernando County First Appearance Hearings",
+    "resolved_at": "2026-11-04T11:36:54+00:00"
+  },
+  "@hon.michaelk.mcnally3487": {
+    "id": "UCVeZvVe8Q46fONEnzvQEjxw",
+    "name": "Hon. Michael K. McNally",
+    "resolved_at": "2026-11-04T11:37:10+00:00"
+  },
+  "@honjcedricsimpsonlivefeed4076": {
+    "id": "UC-YeqwVIbArpKgbTLIQ_TXA",
+    "name": "Hon J Cedric Simpson Live Feed",
+    "resolved_at": "2026-11-04T11:37:27+00:00"
+  },
+  "@judgejeffreymiddleton7573": {
+    "id": "UCS8gM5S889oBPyN6K07ZC6A",
+    "name": "Judge Jeffrey Middleton",
+    "resolved_at": "2026-11-04T11:37:44+00:00"
+  },
+  "@36thdistrictcourt66": {
+    "id": "UClUI5KmT_ySBXekJkl4kilw",
+    "name": "36th District Court",
+    "resolved_at": "2026-11-04T11:38:02+00:00"
+  },
+  "@CTRMthDistrictCourt-hj2tc": {
+    "id": "UCfYgot8WZmu77-ufPwS0kzw",
+    "name": "CTRM 234 36th District Court",
+    "resolved_at": "2026-11-04T11:38:20+00:00"
+  },
+  "@CTRMthDistrictCourt-nz7sy": {
+    "id": "UCs4NkoqOTPoyy0_oUxhLqHQ",
+    "name": "CTRM 434 36th District Court",
+    "resolved_at": "2026-11-04T11:38:21+00:00"
+  },
+  "@LawAndCrime": {
+    "id": "UCz8K1occVvDTYDfFo7N5EZw",
+    "name": "Law&Crime Network",
+    "resolved_at": "2026-11-04T11:38:22+00:00"
+  },
+  "@CourtroomViewNetwork": {
+    "id": "UCZKaUt41jj6nf3YLFfMQHwg",
+    "name": "Courtroom View Network",
+    "resolved_at": "2026-11-04T11:38:22+00:00"
+  },
+  "@JudgeFleischerTV": {
+    "id": "UCXmwC5-xPnFNhJKCJ11xhNg",
+    "name": "Judge Fleischer TV",
+    "resolved_at": "2026-11-04T11:38:23+00:00"
+  },
+  "@FleischerFiles": {
+    "id": "UCA7NCDctcVkWkBxI_fZy51w",
+    "name": "Fleischer Files",
+    "resolved_at": "2026-11-04T11:38:23+00:00"
+  },
+  "@JudgeFleischer": {
+    "id": "UCeF9H7Kq0YgcK4vDQxwD_xw",
+    "name": "Judge Fleischer Fans",
+    "resolved_at": "2026-11-04T11:38:24+00:00"
+  },
+  "@jeffersoncountycriminaldis5808": {
+    "id": "UC8B8Ryhay0uCWv8z6yCJ8iw",
+    "name": "Jeff. Co. Criminal District Court (no record)",
+    "resolved_at": "2026-11-04T11:38:24+00:00"
   }
 }

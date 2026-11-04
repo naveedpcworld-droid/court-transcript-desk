@@ -1,8 +1,50 @@
 [
   {
     "name": "Judge Stephanie Boyd",
-    "videos": 1,
+    "videos": 6,
     "handle": "@judgestephanieboyd4233",
     "court": "187th District Court, Bexar County, Texas"
+  },
+  {
+    "name": "252nd District Court",
+    "videos": 5,
+    "handle": "@252nddistrictcourt3",
+    "court": "252nd District Court, Jefferson County, Texas"
+  },
+  {
+    "name": "Hon. Michael K. McNally",
+    "videos": 5,
+    "handle": "@hon.michaelk.mcnally3487",
+    "court": "36th District Court, Detroit, Michigan"
+  },
+  {
+    "name": "Hon J Cedric Simpson Live Feed",
+    "videos": 5,
+    "handle": "@honjcedricsimpsonlivefeed4076",
+    "court": "14A District Court, Washtenaw County, Michigan"
+  },
+  {
+    "name": "Hernando County First Appearance Hearings",
+    "videos": 5,
+    "handle": "@HernandoCo.FirstAppearances",
+    "court": "Hernando County, Florida"
+  },
+  {
+    "name": "Judge Jeffrey Middleton",
+    "videos": 5,
+    "handle": "@judgejeffreymiddleton7573",
+    "court": "3B District Court, Michigan"
+  },
+  {
+    "name": "Judge Brian Oakley",
+    "videos": 5,
+    "handle": "@34thdistrictcourtjudgebria39",
+    "court": "34th District Court, Michigan"
+  },
+  {
+    "name": "36th District Court",
+    "videos": 5,
+    "handle": "@36thdistrictcourt66",
+    "court": "36th District Court, Detroit, Michigan"
   }
 ]
