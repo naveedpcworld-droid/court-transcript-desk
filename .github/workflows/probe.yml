@@ -29,3 +29,23 @@ jobs:
       - name: macOS default client
         continue-on-error: true
         run: yt-dlp --dump-json --no-warnings --no-playlist "https://www.youtube.com/watch?v=lK3MsPKJUl8" | python -c 'import sys,json; print("MACOS", json.load(sys.stdin).get("title"))'
+
+  innertube:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: InnerTube get_panel
+        run: |
+          python - <<'PY'
+          import base64,json,urllib.request
+          vid='lK3MsPKJUl8'
+          raw=bytes([0xaa,0x09,0x0f,0x0a,0x0b])+vid.encode()+bytes([0x18,0x01])
+          params=base64.b64encode(raw).decode()
+          body={'context':{'client':{'hl':'en','gl':'US','clientName':'WEB','clientVersion':'2.20261029.11.00'}},'panelId':'PAmodern_transcript_view','params':params}
+          req=urllib.request.Request('https://www.youtube.com/youtubei/v1/get_panel?prettyPrint=false',data=json.dumps(body).encode(),headers={'Content-Type':'application/json','User-Agent':'Mozilla/5.0','X-Youtube-Client-Name':'1','X-Youtube-Client-Version':'2.20261029.11.00'})
+          with urllib.request.urlopen(req,timeout=30) as r:
+              data=r.read().decode('utf-8','replace')
+          print('INNERTUBE',len(data),data.count('transcriptSegmentViewModel'))
+          PY
