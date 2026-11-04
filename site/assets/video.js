@@ -18,7 +18,7 @@ async function main(){
   }
   const topics = (v.topic_labels||[]).map(t=>`<span class="badge">${esc(t)}</span>`).join(" ");
   const transcript = tr?.segments?.length
-    ? `<pre class="transcript">${tr.segments.map(s=>`<span class="ts">[${fmtTime(s.start)}]</span>${esc(s.text)}\n`).join("")}</pre>`
+    ? `<pre class="transcript">${tr.segments.map(s=>`<span class="ts">[${fmtTime(s.start)}]</span> ${esc(s.text)}\n`).join("")}</pre>`
     : `<div class="note"><strong>No transcript available.</strong> ${esc(v.transcript_status==="blocked_rights"?"This source is marked no-recording.":v.transcript_status==="restricted"?"This source is restricted from public transcript publication.":"YouTube did not expose captions for this video.")}</div>`;
   app.innerHTML = `<article class="panel"><p class="kicker">${esc(v.channel_name)}</p><h1 style="color:var(--ink);font-size:clamp(28px,4vw,46px)">${esc(v.title)}</h1>
     <div class="meta-grid">
