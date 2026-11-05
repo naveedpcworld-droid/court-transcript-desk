@@ -124,9 +124,11 @@ channels:
     rights_status: licensed
     public: false
     publish_transcript: false
+    monitor: false
+    link_only: true
     judge: ""
     court: "Various US courts"
-    notes: "Media partner/licence required before student redistribution."
+    notes: "Channel link only. No transcript or individual video links are hosted."
 
   - name: Law&Crime Network
     handle: "@LawAndCrime"
@@ -134,9 +136,11 @@ channels:
     rights_status: licensed
     public: false
     publish_transcript: false
+    monitor: false
+    link_only: true
     judge: ""
     court: "Various US courts"
-    notes: "Media partner/licence required before student redistribution."
+    notes: "Channel link only. No transcript or individual video links are hosted."
 
   - name: Courtroom View Network
     handle: "@CourtroomViewNetwork"
@@ -144,9 +148,11 @@ channels:
     rights_status: licensed
     public: false
     publish_transcript: false
+    monitor: false
+    link_only: true
     judge: ""
     court: "Various US courts"
-    notes: "Original trial footage; licence required."
+    notes: "Channel link only. No transcript or individual video links are hosted."
 
   # --- Commentary / competitor watchlist: internal only. ---
   - name: Judge Fleischer TV
@@ -622,3 +628,15 @@ channels:
     judge: ""
     court: "Various"
     notes: "Competitor/commentary watchlist; internal only."
+
+  - name: Law&Crime Trials
+    handle: "@lawandcrimetrials"
+    source_tier: licensed_media
+    rights_status: licensed
+    public: false
+    publish_transcript: false
+    monitor: false
+    link_only: true
+    judge: ""
+    court: "Various US courts"
+    notes: "Channel link only. No transcript or individual video links are hosted."

@@ -29,7 +29,8 @@ static site in /site → GitHub Pages
 
 - No server to maintain.
 - No database.
-- No video/audio stored.
+- **No video/audio files are uploaded to GitHub.** The repo stores transcripts, source video links, categories and metadata only.
+- Court TV / Law & Crime / CVN are **channel-links only** — no transcripts and no individual video links.
 - Static site is fast, searchable, and works on GitHub Pages.
 - Private/competitor channels can be monitored while being excluded from the public site.
 
@@ -107,12 +108,13 @@ Important for judge channels: past live streams are under `/streams`, not `/vide
 | Field | Meaning |
 |---|---|
 | `public: true` | May appear on the public student site |
+| `link_only: true` | Channel card only; no transcript and no video links |
 | `publish_transcript: true` | Transcript may be stored and shown |
 | `rights_status` | `public_court_feed`, `licensed`, `live_only`, `no_recording_order`, `commentary_internal_only`, `unknown` |
 
-**Default safety:** media and commentary channels are monitored but `public: false` and `publish_transcript: false`. The no-recording court is fully blocked.
+**Default safety:** commentary channels are monitored internally but `public: false`; media channels are **link-only**; the no-recording court is fully blocked.
 
-Do not make the repo public or publish transcripts until you have checked:
+This deployment is public. Before adding more sources, check:
 
 - YouTube Terms and the court’s recording/reuse policy.
 - Copyright/licence for Court TV, Law & Crime, CVN and commentary channels.

@@ -18,6 +18,13 @@ async function load(){
   $("#s-transcripts").textContent = transcripts.toLocaleString();
   $("#s-channels").textContent = (stats.channels ?? 0).toLocaleString();
   $("#s-latest").textContent = stats.latest_date ? fmtDate(stats.latest_date) : "—";
+  try {
+    const ext = await fetch("data/external_channels.json",{cache:"no-store"}).then(r=>r.json());
+    if(ext.length){
+      document.getElementById("external-panel").style.display="";
+      document.getElementById("external").innerHTML = ext.map(c=>`<article class="card"><h3>${esc(c.name)}</h3><div class="meta">${esc(c.handle)}</div><div class="meta">${esc(c.note||"External channel link only")}</div><div class="foot"><span class="badge warn">Link only</span><a class="btn" href="${esc(c.url)}" target="_blank" rel="noopener">Open channel ↗</a></div></article>`).join("");
+    }
+  } catch(e) {}
   const topics = stats.topics || {};
   const chips = $("#chips");
   const all = document.createElement("button");

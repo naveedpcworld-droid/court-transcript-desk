@@ -32,6 +32,7 @@ class Channel:
     notes: str = ""
     channel_id: str = ""
     monitor: bool = True
+    link_only: bool = False
 
 
 def load_config(path: str = "channels.yml") -> tuple[Settings, list[Channel]]:
@@ -60,5 +61,6 @@ def load_config(path: str = "channels.yml") -> tuple[Settings, list[Channel]]:
             notes=c.get("notes", ""),
             channel_id=c.get("channel_id", ""),
             monitor=bool(c.get("monitor", True)),
+            link_only=bool(c.get("link_only", False)),
         ))
     return settings, channels

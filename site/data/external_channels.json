@@ -1,0 +1,30 @@
+[
+  {
+    "name": "COURT TV",
+    "handle": "@CourtTV",
+    "url": "https://www.youtube.com/@CourtTV",
+    "source_tier": "licensed_media",
+    "note": "Channel link only. No transcript or individual video links are hosted."
+  },
+  {
+    "name": "Law&Crime Network",
+    "handle": "@LawAndCrime",
+    "url": "https://www.youtube.com/@LawAndCrime",
+    "source_tier": "licensed_media",
+    "note": "Channel link only. No transcript or individual video links are hosted."
+  },
+  {
+    "name": "Courtroom View Network",
+    "handle": "@CourtroomViewNetwork",
+    "url": "https://www.youtube.com/@CourtroomViewNetwork",
+    "source_tier": "licensed_media",
+    "note": "Channel link only. No transcript or individual video links are hosted."
+  },
+  {
+    "name": "Law&Crime Trials",
+    "handle": "@lawandcrimetrials",
+    "url": "https://www.youtube.com/@lawandcrimetrials",
+    "source_tier": "licensed_media",
+    "note": "Channel link only. No transcript or individual video links are hosted."
+  }
+]

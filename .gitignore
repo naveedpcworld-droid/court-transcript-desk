@@ -6,3 +6,10 @@ tmp/
 *.vtt
 .DS_Store
 .pytest_cache/
+*.mp4
+*.webm
+*.mkv
+*.mov
+*.m4a
+*.mp3
+*.wav

@@ -78,6 +78,12 @@ def main(argv: list[str] | None = None) -> int:
     atomic_write_json(os.path.join(site_data, "stats.json"), stats)
     atomic_write_json(os.path.join(site_data, "channels.json"), channel_rows)
     atomic_write_json(os.path.join(site_data, "digest.json"), out[:20])
+    external = [
+        {"name": c.name, "handle": c.handle, "url": f"https://www.youtube.com/{c.handle}",
+         "source_tier": c.source_tier, "note": c.notes}
+        for c in channels if c.link_only
+    ]
+    atomic_write_json(os.path.join(site_data, "external_channels.json"), external)
 
     # Minimal RSS for students who prefer a feed.
     items = []
