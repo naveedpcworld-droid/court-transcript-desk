@@ -1,24 +1,24 @@
 {
-  "videos": 108,
-  "transcripts": 108,
+  "videos": 112,
+  "transcripts": 112,
   "channels": 10,
   "topics": {
-    "Sentencing": 91,
-    "Cop misconduct / civil rights": 62,
-    "Bond / bail": 59,
-    "Probation / parole": 52,
+    "Sentencing": 94,
+    "Cop misconduct / civil rights": 65,
+    "Bond / bail": 60,
+    "Probation / parole": 56,
     "Traffic / license": 38,
-    "Assault / violence": 35,
-    "Child abuse / children": 35,
-    "Domestic / relationship": 33,
+    "Assault / violence": 37,
+    "Domestic / relationship": 36,
+    "Child abuse / children": 36,
     "Weapons": 29,
-    "Drugs": 24,
-    "Family / custody": 19,
+    "Drugs": 26,
+    "Family / custody": 20,
     "DUI / drunk driving": 17,
     "Theft / fraud": 15,
-    "Mental health": 6,
+    "Mental health": 7,
     "Sovereign citizen": 3
   },
-  "latest_date": "2026-11-04T19:35:53+00:00",
-  "generated_at": "2026-11-04T19:46:05+00:00"
+  "latest_date": "2026-11-04T19:41:47+00:00",
+  "generated_at": "2026-11-05T06:50:00+00:00"
 }

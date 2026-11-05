@@ -1,15 +1,21 @@
 [
   {
+    "name": "Judge Jeffrey Middleton",
+    "videos": 15,
+    "handle": "@judgejeffreymiddleton7573",
+    "court": "Judge Jeffrey Middleton"
+  },
+  {
     "name": "Hernando County First Appearance Hearings",
     "videos": 15,
     "handle": "@HernandoCo.FirstAppearances",
     "court": "Hernando County, Florida"
   },
   {
-    "name": "Judge Jeffrey Middleton",
+    "name": "Judge Stephanie Boyd",
     "videos": 14,
-    "handle": "@judgejeffreymiddleton7573",
-    "court": "3B District Court, Michigan"
+    "handle": "@judgestephanieboyd4233",
+    "court": "187th District Court, Bexar County, Texas"
   },
   {
     "name": "Judge Brian Oakley",
@@ -22,12 +28,6 @@
     "videos": 14,
     "handle": "@36thdistrictcourt66",
     "court": "36th District Court, Detroit, Michigan"
-  },
-  {
-    "name": "Judge Stephanie Boyd",
-    "videos": 13,
-    "handle": "@judgestephanieboyd4233",
-    "court": "187th District Court, Bexar County, Texas"
   },
   {
     "name": "252nd District Court",
@@ -43,13 +43,13 @@
   },
   {
     "name": "Hon J Cedric Simpson Live Feed",
-    "videos": 8,
+    "videos": 9,
     "handle": "@honjcedricsimpsonlivefeed4076",
     "court": "14A District Court, Washtenaw County, Michigan"
   },
   {
     "name": "Hon. Michael K. McNally",
-    "videos": 5,
+    "videos": 6,
     "handle": "@hon.michaelk.mcnally3487",
     "court": "Hon. Michael K. McNally"
   },
